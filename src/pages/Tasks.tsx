@@ -58,7 +58,7 @@ export const Tasks: React.FC = () => {
   const [isTaskDetailOpen, setIsTaskDetailOpen] = useState(false);
   const [selectedTaskDetail, setSelectedTaskDetail] = useState<Task | null>(null);
   const [submitting, setSubmitting] = useState(false);
-  const [filter, setFilter] = useState('monthly'); // Add filter state
+  const [filter, setFilter] = useState('lifetime'); // Add filter state
   const [assignDialogOpen, setAssignDialogOpen] = useState(false);
   const [assignTask, setAssignTask] = useState<Task | null>(null);
   const [assignType, setAssignType] = useState<'printing' | 'delivery' | null>(null);
